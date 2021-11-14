@@ -6,14 +6,15 @@ detachable-header.layout-header-mobile(:height='height')
 	header.max-w-full: .columns.max-w-medium
 
 		.left
-			nuxt-link(to='/') stephenson
+			nuxt-link(to='/') Partstash
 
 		.right
-			//- Probably a hamburger
+			smart-link(to='/about') About
+			smart-link(to='https://partstash.com') Login/Register
 
 </template>
 
-<!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <script lang='coffee'>
 import DetachableHeader from 'vue-detachable-header'

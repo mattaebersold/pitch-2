@@ -8,10 +8,11 @@ detachable-header.layout-header-desktop(:height='height')
 			//- Left aligned links
 
 		.center
-			nuxt-link(to='/') stephenson
+			nuxt-link(to='/') Partstash
 
 		.right
-			//- Right aligned links
+			smart-link(to='/about') About
+			smart-link(to='https://partstash.com') Login/Register
 
 </template>
 

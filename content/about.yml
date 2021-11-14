@@ -1,14 +1,10 @@
-title: 'Homepage'
+title: 'About Partstash'
 blocks:
 
   # Example of a marquee
   -
     __typename: 'simpleMarquee'
-    title: 'Partstash'
-    buttons:
-      -
-        label: 'About'
-        to: '/about'
+    title: 'About Partstash'
 
   # Spacer
   -
@@ -19,8 +15,9 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h2>Drive</h2>
-      <p>Partstash is a marketplace platform for enthusiasts to do business. You can buy, sell, trade cars and parts.</p>
+      <h2>Team</h2>
+      <p>Matt - Director of Development</p>
+      <p>John - Director of Marketing</p>
 
   # Spacer
   -
