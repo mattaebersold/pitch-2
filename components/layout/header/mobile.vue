@@ -10,6 +10,7 @@ detachable-header.layout-header-mobile(:height='height')
 
 		.right
 			smart-link(to='/about') About
+			smart-link(to='/faq') FAQ
 			smart-link(to='https://partstash.com') Login/Register
 
 </template>
@@ -36,6 +37,11 @@ export default
 .layout-header-mobile
 	+tablet-up()
 		display none
+
+	>>> a
+		display inline-block
+		font-weight bold
+		margin 0 10px
 
 
 </style>

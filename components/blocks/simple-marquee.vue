@@ -8,7 +8,7 @@ section.simple-marquee.max-w-full: .max-w
 	h1.style-h1 {{ block.title }}
 
 	//- Optional list of buttons
-	.buttons(v-if='block.buttons.length'): btn-craft(
+	.buttons(v-if='hasButtons'): btn-craft(
 		v-for='button in block.buttons' :key='button.id'
 		:button='button')
 
@@ -20,6 +20,10 @@ section.simple-marquee.max-w-full: .max-w
 export default
 
 	props: block: Object
+
+	computed: 
+
+		hasButtons: -> @block.buttons?
 
 </script>
 

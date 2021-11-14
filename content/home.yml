@@ -9,6 +9,9 @@ blocks:
       -
         label: 'About'
         to: '/about'
+      -
+        label: 'FAQ'
+        to: '/faq'
 
   # Spacer
   -

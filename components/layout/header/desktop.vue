@@ -5,13 +5,11 @@
 detachable-header.layout-header-desktop(:height='height')
 	header.max-w-full: .columns.max-w-medium
 		.left
-			//- Left aligned links
-
-		.center
 			nuxt-link(to='/') Partstash
 
 		.right
 			smart-link(to='/about') About
+			smart-link(to='/faq') FAQ
 			smart-link(to='https://partstash.com') Login/Register
 
 </template>
@@ -38,5 +36,10 @@ export default
 .layout-header-desktop
 	+tablet-down()
 		display none
+
+	>>> a
+		display inline-block
+		font-weight bold
+		margin 0 10px
 
 </style>
