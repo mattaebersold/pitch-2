@@ -1,0 +1,28 @@
+title: 'Partstash FAQ'
+blocks:
+
+  # Example of a marquee
+  -
+    __typename: 'simpleMarquee'
+    title: 'FAQ'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'
+
+  # Example of rendering html
+  -
+    __typename: 'copy'
+    body:
+      <h2>Login & Register for an account</h2>
+      <p>Go to partstash.com and select login/register</p>
+
+      <h2>How to list an item for sale</h2>
+      <p>When logged in, select the + button in the header, or the main menu, then you can select "New Listing"</p>
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'
+
