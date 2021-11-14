@@ -23,10 +23,12 @@ export mapping =
 	copy: 'blocks-copy'
 	mediaAsset: 'blocks-media-asset'
 	simpleMarquee: 'blocks-simple-marquee'
+	heroMarquee: 'blocks-hero-marquee'
 	spacer: 'blocks-spacer'
 
 # Hard import marquee components so they don't get chunked
 import '~/components/blocks/simple-marquee'
+import '~/components/blocks/hero-marquee'
 
 # Component def for this block
 export default

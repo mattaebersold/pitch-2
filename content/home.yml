@@ -3,8 +3,10 @@ blocks:
 
   # Example of a marquee
   -
-    __typename: 'simpleMarquee'
+    __typename: 'heroMarquee'
     title: 'Partstash'
+    image: 'imgs/home/bg.jpg'
+    logo: 'imgs/home/marquee-logo.png'
     buttons:
       -
         label: 'About'
