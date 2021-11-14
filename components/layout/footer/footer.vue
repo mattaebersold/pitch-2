@@ -2,7 +2,9 @@
 
 <template lang='pug'>
 
-footer.layout-footer: .max-w Footer content
+footer.layout-footer: .max-w 
+	p Copyright 2021 Partstash. 
+	a(href='mailto:support@partstash.com') Contact Support
 
 </template>
 
