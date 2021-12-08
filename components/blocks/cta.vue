@@ -11,6 +11,7 @@ section.max-w
 
 		.image
 			cloak-visual(
+				noPlaceholder
 				sizes='800px'
 				image='imgs/cta.jpg'
 				object-fit='cover')

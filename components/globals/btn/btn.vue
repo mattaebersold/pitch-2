@@ -106,6 +106,8 @@ export default
 	// Clear possibly inheritted underline
 	text-decoration none
 
+	font-weight bold
+
 	// Disable cursor when disabled
 	&[disabled]
 		cursor default
