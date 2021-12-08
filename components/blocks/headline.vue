@@ -1,35 +1,26 @@
-<!-- Layout footer -->
+<!-- Spacer block -->
 
 <template lang='pug'>
 
-footer.layout-footer: .max-w 
-	p Copyright 2021 Partstash. 
-	a(href='mailto:support@partstash.com') Contact Support
+.headline.max-w-small
+  h2.style-h2 {{ block.text }}
 
 </template>
 
 <!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <script lang='coffee'>
-# export default
-# 	components:
-# 	props: []
-# 	data: ->
-# 	computed:
-# 	watch:
-# 	methods:
+export default
+
+	props: block: Object
+
 </script>
 
 <!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <style lang='stylus' scoped>
 
-.layout-footer
-	background #090909
-	fluid-space padding-v, 'm'
-
-a
-	font-style italic
-	font-weight bold
+.headline
+  text-align center
 
 </style>

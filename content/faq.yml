@@ -15,10 +15,12 @@ blocks:
   -
     __typename: 'copy'
     body:
-      <h2>Login & Register for an account</h2>
+      <h3 class='style-h3'>Login & Register for an account</h3>
       <p>Go to partstash.com and select login/register</p>
 
-      <h2>How to list an item for sale</h2>
+      <br />
+
+      <h3 class='style-h3'>How to list an item for sale</h3>
       <p>When logged in, select the + button in the header, or the main menu, then you can select "New Listing"</p>
 
   # Spacer
@@ -26,3 +28,11 @@ blocks:
     __typename: 'spacer'
     height: 'l'
 
+  # CTA
+  -
+    __typename: 'cta'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'

@@ -22,10 +22,17 @@ blocks:
 
   # Example of rendering html
   -
-    __typename: 'copy'
-    body:
-      <h2>Drive</h2>
-      <p>Partstash is a marketplace platform for enthusiasts to do business. You can buy, sell, trade cars and parts.</p>
+    __typename: 'headline'
+    text: Partstash is a marketplace platform for enthusiasts to do business. You can buy, sell, trade cars and parts.
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'
+
+  # CTA
+  -
+    __typename: 'cta'
 
   # Spacer
   -

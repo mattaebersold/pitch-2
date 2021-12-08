@@ -25,10 +25,14 @@ export mapping =
 	simpleMarquee: 'blocks-simple-marquee'
 	heroMarquee: 'blocks-hero-marquee'
 	spacer: 'blocks-spacer'
+	cta: 'blocks-cta'
+	headline: 'blocks-headline'
 
 # Hard import marquee components so they don't get chunked
 import '~/components/blocks/simple-marquee'
 import '~/components/blocks/hero-marquee'
+import '~/components/blocks/cta'
+import '~/components/blocks/headline'
 
 # Component def for this block
 export default

@@ -24,3 +24,11 @@ blocks:
     __typename: 'spacer'
     height: 'l'
 
+  # CTA
+  -
+    __typename: 'cta'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    height: 'l'
