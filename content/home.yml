@@ -30,6 +30,17 @@ blocks:
     __typename: 'spacer'
     height: 'l'
 
+  # Example of rendering html
+  -
+    __typename: 'copy'
+    body:
+      <h2>Features</h2>
+      <a class='btn'>View App Features</a>
+
+  -
+    __typename: 'spacer'
+    height: 'l'
+
   # CTA
   -
     __typename: 'cta'

@@ -9,9 +9,10 @@ detachable-header.layout-header-mobile(:height='height')
 			nuxt-link(to='/') Partstash
 
 		.right
+			smart-link(to='/about') Features
 			smart-link(to='/about') About
 			smart-link(to='/faq') FAQ
-			smart-link(to='https://partstash.com') Login/Register
+			smart-link(to='https://partstash.com') Login
 
 </template>
 
@@ -42,6 +43,7 @@ export default
 		display inline-block
 		font-weight bold
 		margin 0 10px
+		font-size 14px
 
 
 </style>

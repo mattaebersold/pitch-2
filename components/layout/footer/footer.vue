@@ -3,7 +3,7 @@
 <template lang='pug'>
 
 footer.layout-footer: .max-w 
-	p Copyright 2021 Partstash. 
+	p Copyright 2022 Partstash. 
 	a(href='mailto:support@partstash.com') Contact Support
 
 </template>
