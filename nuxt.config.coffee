@@ -10,6 +10,7 @@ module.exports = mergeConfig boilerplate,
 
 
 	modules: [
+		'@nuxtjs/google-analytics'
 		'@nuxt/content'
 		'vue-unorphan/nuxt/module'
 		'vue-balance-text/nuxt/module'
@@ -22,4 +23,9 @@ module.exports = mergeConfig boilerplate,
 	anchorParser: internalUrls: [
 		# /^https?:\/\/(www\.)?domain\.com/
 	]
+
+	googleAnalytics:
+		id: 'UA-72677049-1'
+
+
 

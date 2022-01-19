@@ -9,7 +9,7 @@ detachable-header.layout-header-mobile(:height='height')
 			nuxt-link(to='/') Partstash
 
 		.right
-			smart-link(to='/about') Features
+			smart-link(to='/features') Features
 			smart-link(to='/about') About
 			smart-link(to='/faq') FAQ
 			smart-link(to='https://partstash.com') Login

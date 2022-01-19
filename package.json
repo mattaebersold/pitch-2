@@ -21,5 +21,8 @@
 		"vue-balance-text": "^1.2.3",
 		"vue-detachable-header": "^0.2.0",
 		"vue-unorphan": "^1.2.3"
+	},
+	"devDependencies": {
+		"@nuxtjs/google-analytics": "^2.4.0"
 	}
 }
