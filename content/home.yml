@@ -1,52 +1,103 @@
-title: 'Homepage'
+title: 'Affiliate Pitch'
 blocks:
 
-  # Example of a marquee
-  -
-    __typename: 'heroMarquee'
-    title: 'Partstash'
-    image: 'imgs/home/bg.jpg'
-    logo: 'imgs/home/marquee-logo.png'
-    buttons:
-      -
-        label: 'About'
-        to: '/about'
-      -
-        label: 'FAQ'
-        to: '/faq'
-
   # Spacer
   -
     __typename: 'spacer'
-    height: 'l'
-
-  # Example of rendering html
-  -
-    __typename: 'headline'
-    text: Partstash is a marketplace platform for enthusiasts to do business. You can buy, sell, trade cars and parts.
-
-  # Spacer
-  -
-    __typename: 'spacer'
-    height: 'l'
+    block:
+      height: 'l'
 
   # Example of rendering html
   -
     __typename: 'copy'
-    body:
-      <h2>Features</h2>
-      <a class='btn'>View App Features</a>
-
-  -
-    __typename: 'spacer'
-    height: 'l'
-
-  # CTA
-  -
-    __typename: 'cta'
+    content:
+      <h1>Affiliate Marketing Pitch</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+    maxWidth: 'max-w-l'
 
   # Spacer
   -
     __typename: 'spacer'
-    height: 'l'
+    block:
+      height: 'l'
 
+  # Example of using an asset
+  -
+    __typename: 'visual'
+    landscapeImage: '/imgs/home/dj.jpg'
+    maxWidth: 'max-w-full'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
+
+  # Example of rendering html
+  -
+    __typename: 'copy'
+    content:
+      <h2>01 / Who</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+    maxWidth: 'max-w-l'
+
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
+
+  # Example of using an asset
+  -
+    __typename: 'visual'
+    landscapeImage: '/imgs/home/wedding.jpg'
+    maxWidth: 'max-w-full'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
+
+  # Example of rendering html
+  -
+    __typename: 'copy'
+    content:
+      <h2>02 / What</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+    maxWidth: 'max-w-l'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
+
+  # Example of using an asset
+  -
+    __typename: 'visual'
+    landscapeImage: '/imgs/home/wedding-2.jpg'
+    maxWidth: 'max-w-full'
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
+
+
+  # Example of rendering html
+  -
+    __typename: 'copy'
+    content:
+      <h2>Conclusion</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id pretium lectus. Quisque hendrerit, nulla ultrices feugiat porta, ex velit venenatis erat, ut posuere lacus odio sit amet leo.</p>
+    maxWidth: 'max-w-l'
+
+
+  # Spacer
+  -
+    __typename: 'spacer'
+    block:
+      height: 'l'
